@@ -10,9 +10,9 @@ Typescript 기반 React, Next, Expo 프로젝트에서 사용할 수 있는 Code
 
 ## 1. Prerequisite
 
-- typescript (>=4.6.3)
+- typescript@>=4.6.3
   - tsconfig.json
-- eslint (>=8.33.0)
+- eslint@>=8.33.0
 - VSCode Extensions
   - Prettier - Code formatter
   - ESLint
