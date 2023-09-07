@@ -1,20 +1,20 @@
 {
   "name": "@lofty87/code-convention",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "author": {
     "name": "lofty87",
     "email": "lofty87@daum.net"
   },
   "description": "Lofty87 Project Code Convention",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "main": "index.js",
-  "homepage": "https://github.com/lofty87/code-convention",
+  "homepage": "https://github.com/lofty87/CodeConvention",
   "bugs": {
-    "url": "https://github.com/lofty87/code-convention/issues"
+    "url": "https://github.com/lofty87/CodeConvention/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lofty87/code-convention.git"
+    "url": "git+https://github.com/lofty87/CodeConvention.git"
   },
   "keywords": [
     "eslint",
