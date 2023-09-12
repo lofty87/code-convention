@@ -1,0 +1,4 @@
+{
+  "extends": "@lofty87/eslint-config",
+  "rules": {}
+}

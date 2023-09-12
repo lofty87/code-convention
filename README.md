@@ -21,12 +21,14 @@ Typescript 기반 React, Next, Expo 프로젝트에서 사용할 수 있는 Code
 
 ## 2. Dependencies
 
-- @typescript-eslint/eslint-plugin@^5.50.0
-- @typescript-eslint/parser@^5.50.0
-- eslint-plugin-import@^2.27.5
-- eslint-plugin-jsx-a11y@^6.7.1
-- eslint-plugin-react@^7.32.2
-- eslint-plugin-react-hooks@^4.6.0
+- [@lofty87/prettier-config@^1.0.0](https://github.com/lofty87/CodeConvention/tree/master/PrettierConfig)
+- [@lofty87/eslint-config@^3.0.0](https://github.com/lofty87/CodeConvention/tree/master/EslintConfig)
+  - @typescript-eslint/eslint-plugin@^5.50.0
+  - @typescript-eslint/parser@^5.50.0
+  - eslint-plugin-import@^2.27.5
+  - eslint-plugin-jsx-a11y@^6.7.1
+  - eslint-plugin-react@^7.32.2
+  - eslint-plugin-react-hooks@^4.6.0
 
 <br />
 
@@ -44,10 +46,10 @@ npm install --save-dev @lofty87/code-convention
 
 **1. Prettier Formatting**
 
-프로젝트 폴더(root)에 `.prettierrc.js` 파일을 생성하고 아래 내용을 추가합니다.
+프로젝트 폴더(root)에 `.prettierrc.json` 파일을 생성하고 아래 내용을 추가합니다.
 
-```js
-module.exports = require('@lofty87/code-convention/prettier/config');
+```json
+"@lofty87/prettier-config"
 ```
 
 VSCode Preferences 의 Settings 안에 아래 내용을 추가하고 Keyboard Shortcuts 안에 Format Document 값을 `F11` 로 설정합니다.
@@ -78,14 +80,12 @@ VSCode Preferences 의 Settings 안에 아래 내용을 추가하고 Keyboard Sh
 
 **2. ESLint Formatting**
 
-프로젝트 폴더(root)에 `.eslintrc.js` 파일을 생성하고 아래 내용을 추가합니다.
+프로젝트 폴더(root)에 `.eslintrc.json` 파일을 생성하고 아래 내용을 추가합니다.
 
-```js
-module.exports = {
-  extends: [
-    '@lofty87/code-convention',
-  ],
-  rules: {},
+```json
+{
+  "extends": "@lofty87/eslint-config",
+  "rules": {}
 }
 ```
 
