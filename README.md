@@ -21,8 +21,8 @@ Typescript 기반 React, Next, Expo 프로젝트에서 사용할 수 있는 Code
 
 ## 2. Dependencies
 
-- [@lofty87/prettier-config@^1.0.0](https://github.com/lofty87/CodeConvention/tree/master/PrettierConfig)
-- [@lofty87/eslint-config@^3.0.0](https://github.com/lofty87/CodeConvention/tree/master/EslintConfig)
+- [@lofty87/prettier-config@^1.0.1](https://github.com/lofty87/CodeConvention/tree/master/PrettierConfig)
+- [@lofty87/eslint-config@^3.0.1](https://github.com/lofty87/CodeConvention/tree/master/EslintConfig)
   - @typescript-eslint/eslint-plugin@^5.50.0
   - @typescript-eslint/parser@^5.50.0
   - eslint-plugin-import@^2.27.5
