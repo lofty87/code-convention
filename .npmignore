@@ -5,5 +5,5 @@
 .gitignore
 node_modules
 
-EslintConfig
-PrettierConfig
+eslint-config
+prettier-config

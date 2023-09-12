@@ -1,6 +1,6 @@
 {
   "name": "@lofty87/eslint-config",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "author": {
     "name": "lofty87",
     "email": "lofty87@daum.net"
@@ -8,13 +8,13 @@
   "description": "Lofty87 Project Code Convention (ESLint)",
   "license": "MIT",
   "main": "index.js",
-  "homepage": "https://github.com/lofty87/CodeConvention",
+  "homepage": "https://github.com/lofty87/code-convention",
   "bugs": {
-    "url": "https://github.com/lofty87/CodeConvention/issues"
+    "url": "https://github.com/lofty87/code-convention/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lofty87/CodeConvention.git"
+    "url": "git+https://github.com/lofty87/code-convention.git"
   },
   "keywords": [
     "lofty87",

@@ -1,19 +1,19 @@
 {
   "name": "@lofty87/code-convention",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "author": {
     "name": "lofty87",
     "email": "lofty87@daum.net"
   },
   "description": "Lofty87 Project Code Convention",
   "license": "MIT",
-  "homepage": "https://github.com/lofty87/CodeConvention",
+  "homepage": "https://github.com/lofty87/code-convention",
   "bugs": {
-    "url": "https://github.com/lofty87/CodeConvention/issues"
+    "url": "https://github.com/lofty87/code-convention/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lofty87/CodeConvention.git"
+    "url": "git+https://github.com/lofty87/code-convention.git"
   },
   "keywords": [
     "lofty87",
@@ -29,7 +29,7 @@
     "typescript": ">=4.6.3"
   },
   "dependencies": {
-    "@lofty87/eslint-config": "^3.0.1",
-    "@lofty87/prettier-config": "^1.0.1"
+    "@lofty87/eslint-config": "^3.0.2",
+    "@lofty87/prettier-config": "^1.0.2"
   }
 }
