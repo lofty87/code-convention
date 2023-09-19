@@ -1,0 +1,7 @@
+{
+  "extends": [
+    "@lofty87/eslint-config",
+    "prettier"
+  ],
+  "rules": {}
+}
