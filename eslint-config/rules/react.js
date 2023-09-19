@@ -1,4 +1,14 @@
 module.exports = {
+  parserOptions: {
+    ecmaFeatures: { jsx: true },
+  },
+  settings: {
+    react: { version: 'detect' },
+  },
+  plugins: [
+    'react',
+    'react-hooks',
+  ],
   rules: {
     'react/button-has-type': 'error',
     'react/default-props-match-prop-types': 'error',
@@ -16,14 +26,14 @@ module.exports = {
     'react/jsx-curly-spacing': [ 'error', { when: 'never', children: true } ],
     'react/jsx-equals-spacing': [ 'error', 'never' ],
     'react/jsx-filename-extension': [ 'error', { allow: 'always', extensions: [ '.jsx', '.tsx' ] } ],
-    'react/jsx-first-prop-new-line': [ 'error', 'always' ],
+    'react/jsx-first-prop-new-line': [ 'error', 'multiline' ],
     'react/jsx-fragments': 'error',
     'react/jsx-handler-names': 'off',
     'react/jsx-indent': [ 'error', 2, { checkAttributes: false, indentLogicalExpressions: false } ],
     'react/jsx-indent-props': [ 'error', 2 ],
     'react/jsx-key': 'error',
     'react/jsx-max-props-per-line': [ 'error', { maximum: 1, when: 'always' } ],
-    'react/jsx-newline': [ 'error', { prevent: true, allowMultilines: false } ],
+    'react/jsx-newline': 'off',
     'react/jsx-no-duplicate-props': 'error',
     'react/jsx-no-target-blank': [ 'error', { enforceDynamicLinks: 'always' } ],
     'react/jsx-no-useless-fragment': 'off',
@@ -84,5 +94,7 @@ module.exports = {
     'react/state-in-constructor': [ 'error', 'never' ],
     'react/style-prop-object': 'off',
     'react/void-dom-elements-no-children': 'error',
+    'react-hooks/rules-of-hooks': 'off',
+    'react-hooks/exhaustive-deps': 'off',
   },
 };

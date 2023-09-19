@@ -2,13 +2,13 @@
 
 <br />
 
-Typescript 기반 React, Next, Expo 프로젝트에서 사용할 수 있는 Code Convention ([ESLint](https://eslint.org/)) 입니다. Code Convention 을 잡고 프로젝트를 진행하게 되면, 나 또는 팀원들이 모두 일관성 있는 코드를 작성하게 되어 코드 관리가 쉽고 유지 보수에 용이하다는 장점이 있습니다.
+Typescript 기반 React, Next, Expo 프로젝트에서 사용할 수 있는 Code Convention ([ESLint](https://eslint.org/)) 입니다. Code Convention 을 잡고 프로젝트를 진행하게 되면, 나 또는 팀원들이 모두 일관성 있는 코드를 작성하게 되어 코드 관리가 쉽고 유지 보수에 용이하다는 장점이 있습니다. 또 코드가 통일성 있고 깔끔하게 되어 코드의 품질을 올릴 수 있습니다.
 
 아래와 같이 프로젝트를 설정할 경우, 파일 저장만으로 자동 **Eslint Formatting** 이 가능해집니다.
 
 <br />
 
-## 1. Prerequisite
+## 1. Prerequisite (required)
 
 - typescript@>=4.6.3
   - tsconfig.json
@@ -31,10 +31,12 @@ Typescript 기반 React, Next, Expo 프로젝트에서 사용할 수 있는 Code
 
 ## 3. Installation
 
-Using npm :
-
 ```bash
-npm install --save-dev @lofty87/eslint-config
+# npm
+npm install @lofty87/eslint-config --save-dev
+
+# yarn
+yarn add @lofty87/eslint-config --dev
 ```
 
 <br />

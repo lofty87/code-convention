@@ -1,4 +1,7 @@
 module.exports = {
+  plugins: [
+    'jsx-a11y',
+  ],
   rules: {
     'jsx-a11y/alt-text': 'error',
     'jsx-a11y/anchor-is-valid': 'off',

@@ -1,4 +1,7 @@
 module.exports = {
+  plugins: [
+    'import',
+  ],
   rules: {
     'import/default': 'error',
     'import/export': 'error',
