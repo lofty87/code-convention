@@ -11,6 +11,13 @@ module.exports = {
     'block-spacing': [ 'error', 'always' ],
     'brace-style': [ 'error', '1tbs', { allowSingleLine: true } ],
     'camelcase': 'off',
+    'comma-dangle': [ 'error', {
+      arrays: 'always-multiline',
+      objects: 'always-multiline',
+      imports: 'always-multiline',
+      exports: 'always-multiline',
+      functions: 'never',
+    } ],
     'comma-spacing': [ 'error', { before: false, after: true } ],
     'comma-style': [ 'error', 'last' ],
     'computed-property-spacing': [ 'error', 'never', { enforceForClassMembers: true } ],

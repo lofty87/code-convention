@@ -1,6 +1,6 @@
 {
   "name": "@lofty87/code-convention",
-  "version": "2.0.7",
+  "version": "2.0.8",
   "author": {
     "name": "lofty87",
     "email": "lofty87@daum.net"
@@ -29,7 +29,7 @@
     "typescript": ">=4.6.3"
   },
   "dependencies": {
-    "@lofty87/eslint-config": "^3.0.7",
+    "@lofty87/eslint-config": "^3.0.8",
     "@lofty87/prettier-config": "^1.0.5",
     "eslint-config-prettier": "^9.0.0"
   }
