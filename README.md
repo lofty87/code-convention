@@ -27,7 +27,7 @@ TypeScript 기반 React, Next, Expo 프로젝트에서 사용할 수 있는 Code
   - eslint-plugin-jsx-a11y@^6.7.1
   - eslint-plugin-react@^7.32.2
   - eslint-plugin-react-hooks@^4.6.0
-- [@lofty87/prettier-config@^1.0.6](https://github.com/lofty87/code-convention/tree/master/prettier-config)
+- [@lofty87/prettier-config@^1.0.7](https://github.com/lofty87/code-convention/tree/master/prettier-config)
 - eslint-config-prettier@^9.0.0 (충돌방지)
 
 <br />

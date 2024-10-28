@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "@lofty87/eslint-config": "^4.0.0",
-    "@lofty87/prettier-config": "^1.0.6",
+    "@lofty87/prettier-config": "^1.0.7",
     "eslint-config-prettier": "^9.0.0"
   }
 }
