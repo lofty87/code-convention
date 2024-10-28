@@ -1,3 +1,5 @@
+.next/**/*
+.vercel/**/*
 .expo/**/*
 node_modules/**/*
 babel.config.js
