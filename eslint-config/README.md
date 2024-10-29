@@ -56,8 +56,8 @@ VSCode Preferences 의 Settings 안에 아래 내용을 추가합니다.
 ```json
 {
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "explicit",
-  },
+    "source.fixAll.eslint": "explicit"
+  }
 }
 ```
 

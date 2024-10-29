@@ -20,14 +20,14 @@ TypeScript 기반 React, Next, Expo 프로젝트에서 사용할 수 있는 Code
 
 ## 2. Dependencies
 
-- [@lofty87/eslint-config@^4.0.1](https://github.com/lofty87/code-convention/tree/master/eslint-config)
+- [@lofty87/eslint-config@^4.0.2](https://github.com/lofty87/code-convention/tree/master/eslint-config)
   - @typescript-eslint/eslint-plugin@^5.50.0
   - @typescript-eslint/parser@^5.50.0
   - eslint-plugin-import@^2.27.5
   - eslint-plugin-jsx-a11y@^6.7.1
   - eslint-plugin-react@^7.32.2
   - eslint-plugin-react-hooks@^4.6.0
-- [@lofty87/prettier-config@^1.0.7](https://github.com/lofty87/code-convention/tree/master/prettier-config)
+- [@lofty87/prettier-config@^1.0.8](https://github.com/lofty87/code-convention/tree/master/prettier-config)
 - eslint-config-prettier@^9.0.0 (충돌방지)
 
 <br />
@@ -65,8 +65,8 @@ VSCode Preferences 의 Settings 안에 아래 내용을 추가합니다.
 ```json
 {
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "explicit",
-  },
+    "source.fixAll.eslint": "explicit"
+  }
 }
 ```
 
@@ -88,24 +88,20 @@ VSCode Preferences 의 Settings 안에 아래 내용을 추가합니다.
 {
   "[javascript]": {
     "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[javascriptreact]": {
     "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[typescript]": {
     "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[typescriptreact]": {
     "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-  },
-  "[graphql]": {
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-  },
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
 ```
 
