@@ -20,7 +20,7 @@ TypeScript 기반 React, Next, Expo 프로젝트에서 사용할 수 있는 Code
 
 ## 2. Dependencies
 
-- [@lofty87/eslint-config@^4.0.2](https://github.com/lofty87/code-convention/tree/master/eslint-config)
+- [@lofty87/eslint-config@^4.0.3](https://github.com/lofty87/code-convention/tree/master/eslint-config)
   - @typescript-eslint/eslint-plugin@^5.50.0
   - @typescript-eslint/parser@^5.50.0
   - eslint-plugin-import@^2.27.5
