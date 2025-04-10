@@ -54,6 +54,7 @@ module.exports = {
         { pattern: '{@lib,@lib/**/*}', group: 'external', position: 'after' },
         { pattern: '{@storage,@storage/**/*}', group: 'external', position: 'after' },
         { pattern: '{@stores,@stores/**/*}', group: 'external', position: 'after' },
+        { pattern: '{@api,@api/**/*}', group: 'external', position: 'after' },
         { pattern: '{@analytics,@analytics/**/*}', group: 'external', position: 'after' },
         { pattern: '{src,src/**/*}', group: 'external', position: 'after' },
       ],
